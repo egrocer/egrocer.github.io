@@ -1,0 +1,39 @@
+FUN – Team Website Challenge
+
+Your task as a team is to develop a website for the product or service that you developed. You can use any tools or technology you wish to build it. 
+
+In order to successfully complete this challenge please appoint one team member to create a project with the following: 
+
+1) A link to your live, mobile-responsive website (optional: also include a link to your code in a Github repo)
+
+2) A file upload that shows your design process, including any wireframes or mock-ups
+
+3) A photo/screenshot of your PIE ENTREPRENEURSHIP Canvas on MURAL.co uploaded to the gallery
+
+4) When creating your project please select the "Task Specific Challenge' Pitch open and answer the associated questions (Overview, Process, Next Steps).
+
+5) Please invite all other team members as project members before you submit
+
+Please label your project and any associated files as follows: 
+
+Section(A B or C)_TEAM NAME_Website
+
+Tasks:
+1. A homepage that communicates your value proposition
+2. A product or service page that explains your solution along with key benefits
+3. A persona specific page
+4. An about page that explains the brand along with your team
+5. A contact page with an associated form
+6. Google Analytics script installation
+
+
+Optional Tasks:
+1. Ecommerce components (product catalogue, payment gateway, or shipping integration)
+2. Email sign up widget
+3. A dynamic contact form (logic driven, based on previous inputs it changes)
+4. A log-in area (allow users to access hidden content or resources
+5. Embedded feed or area (social media, reviews or video)
+6. Popup widget/ alert
+7. Blog
+8. Any other custom components that are relevant to your offering
+

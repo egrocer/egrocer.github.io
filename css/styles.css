@@ -1,0 +1,53 @@
+/* font-family: 'Alegreya', serif;
+font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #343706;
+    background-color: #fff;
+}
+
+h1, h2{
+    font-family: 'Alegreya', serif;
+}
+
+h2{
+    color:#754B5F;
+}
+
+/* h1, h3{
+    color: #fff;
+} */
+
+.cbg-banner, .cbg-green, .cbg-lgreen{
+    background-image:linear-gradient(to bottom, rgba(181,206,172,0.8) 0%,rgba(255,255,255,0.7) 100%),url(../img/grocery-hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;     
+    background-position: center bottom;
+}
+
+.cbg-white {
+    background-color: #fff;
+    background-image: none;
+}
+
+
+.cbg-button{
+    background-color: #b5ceac;
+}
+
+.cbg-lbeige{
+   background-color: #4C550C;
+   color:#fff;
+}
+
+/*===Text colors===*/
+
+.ctx-dark{
+    color: #253f58;
+}
+
+.ctx-line{
+    text-decoration: overline #4C550C;
+    text-decoration-style: double;
+}
