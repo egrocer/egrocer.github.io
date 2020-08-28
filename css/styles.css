@@ -1,28 +1,29 @@
-/* font-family: 'Alegreya', serif;
-font-family: 'Poppins', sans-serif; */
-body{
+body {
     font-family: 'Poppins', sans-serif;
     color: #343706;
     background-color: #fff;
 }
 
-h1, h2{
+h1,
+h2,
+h3,
+h5 {
     font-family: 'Alegreya', serif;
 }
 
-h2{
-    color:#754B5F;
+h2,
+h3,
+h5 {
+    color: #754B5F;
 }
 
-/* h1, h3{
-    color: #fff;
-} */
-
-.cbg-banner, .cbg-green, .cbg-lgreen{
-    background-image:linear-gradient(to bottom, rgba(181,206,172,0.8) 0%,rgba(255,255,255,0.7) 100%),url(../img/grocery-hero.jpg);
+.cbg-banner,
+.cbg-green,
+.cbg-lgreen {
+    background-image: linear-gradient(to bottom, rgba(181, 206, 172, 0.8) 0%, rgba(255, 255, 255, 0.7) 100%), url(../img/grocery-hero.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;     
+    background-size: cover;
     background-position: center bottom;
 }
 
@@ -32,22 +33,32 @@ h2{
 }
 
 
-.cbg-button{
+.cbg-button {
     background-color: #b5ceac;
 }
 
-.cbg-lbeige{
-   background-color: #4C550C;
-   color:#fff;
+.cbg-lbeige {
+    background-color: #4C550C;
+    color: #fff;
 }
 
 /*===Text colors===*/
 
-.ctx-dark{
+.ctx-dark {
     color: #253f58;
 }
 
-.ctx-line{
+.ctx-line {
     text-decoration: overline #4C550C;
     text-decoration-style: double;
+}
+
+.card-cust:Hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.cb-radius{
+    border-radius: 0 0 50px 50px;
 }

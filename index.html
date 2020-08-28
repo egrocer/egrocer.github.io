@@ -2,52 +2,63 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176414164-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176414164-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="description"
         content="Shop from online from authentic ethnic stores for fresh produce and reasonable prices">
-    <meta name="author" content="Sweedal Platina">
+    <meta name="author" content="Rupesh Malhotra, Sweedal Platina">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS file -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <style>
-     
-     .background{
-  position:relative;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-   .background:before {
-  content: "";
-  display: block;
-  border-top: solid 2px #bebebe;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  top: 50%;
-  z-index: 0;
-}
- .background span {
-  background: #fff;
-  padding: 0 10px;
-  position: relative;
-  z-index: 1;
-}
- </style>
-   
     <title>EGrocer|Home</title>
+    <style>
+        .background {
+            position: relative;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .background:before {
+            content: "";
+            display: block;
+            border-top: solid 2px #bebebe;
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            z-index: 0;
+        }
+
+        .background span {
+            background: #fff;
+            padding: 0 10px;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark cbg-green fixed-top">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" width="50" height="50" alt="" loading="lazy">
+        <nav class="navbar navbar-expand-lg navbar-dark cbg-green fixed-top border-bottom">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="50" height="50" alt="Egrocer logo" loading="lazy">
             </a>
             <button class="navbar-toggler cbg-green" type="button" data-toggle="collapse"
                 data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -56,12 +67,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
-                    <a class="nav-item nav-link active px-4 text-dark ctx-line" href="index.html">Home
-                        <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link px-4 text-body" href="about.html">About</a>
-                    <a class="nav-item nav-link px-4 text-body" href="services.html">Services</a>
-                    <a class="nav-item nav-link px-4 text-body" href="persona.html">Persona</a>
-                    <a class="nav-item nav-link px-4 text-body" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link active px-4 text-dark ctx-line" href="index.html">Home<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link px-4 text-dark" href="about.html">About</a>
+                    <a class="nav-item nav-link px-4 text-dark" href="services.html">Services</a>
+                    <a class="nav-item nav-link px-4 text-dark" href="persona.html">Persona</a>
+                    <a class="nav-item nav-link px-4 text-dark" href="contact.html">Contact</a>
                 </div>
             </div>
         </nav>
@@ -76,529 +87,485 @@
     </header>
 
     <!-- Code your changes here -->
-    <body>
-
-        <div class="container">
-            <div class="xyz">
-                <h2 class="background"><span>Stores added to our chain of Ethnic stores in the past 1 week</span></h2>
+    <div class="container">
+        <h2 class="background h4 text-center"><span>Stores added to our chain of Ethnic stores in the past 1
+                week</span></h2>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="img/store1.png" class="card-img-top" alt="store offer 1">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Hua Sheng Mart</h3>
+                        <p class="card-text">(Authentic South Asian grocery)</p>
+                    </div>
                 </div>
-
-                <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="./assists/store1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Hua Sheng Mart</h5>
-                          <p class="card-text">(Authentic South Asian grocery)</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="./assists/store2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Caribbean Island</h5>
-                          <p class="card-text">(For all best Caribbean foods and beverages)</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="./assists/store10.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Kohinoor Kiraanas</h5>
-                          <p class="card-text">(For all your Indian/Sri-Lankan/Pakistani culinary expenditions)</p>
-                        </div>
-                      </div>
-                    </div>
-                   
-                  </div>
-        </div>
-       
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assists/aa.png" class="d-block w-100" alt="Banner1">
-              </div>
-              <div class="carousel-item">
-                <img src="./assists/bb.png" class="d-block w-100" alt="Banner2">
-              </div>
-              <div class="carousel-item">
-                <img src="./assists/dd.png" class="d-block w-100" alt="Banner3">
-              </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-          <div class="name">
-              <a href="#vegetables">
-                  <div class="categories">
-                      <img src="./assists/greenpepper.png" class="item-image">
-                      <div class="image-title">Vegetables</div>
-                   </div>
-              </a>
-              <a href="#fruits">
-                <div class="categories">
-                    <img src="./assists/download.png" class="item-image">
-                    <div class="image-title">Fruits</div>
-                 </div>
-            </a>
-            <a href="#meat">
-                <div class="categories">
-                    <img src="./assists/meat.png" class="item-image">
-                    <div class="image-title">Meat & Seafood</div>
-                 </div>
-            </a>
-            <a href="#deals">
-                <div class="categories">
-                    <img src="./assists/deals.png" class="item-image">
-                    <div class="image-title">Deals</div>
-                 </div>
-            </a>
-        </div>
-          </div>
-
-          <!--Deals-->
-          <div class="container"> 
-          <div class="xyz">
-           <h2 class="background"><span>Latest Offers and Discounts</span></h2>
-           </div>
-
-           
-   
-   <!--1-->
-        <div class="rowss">  <!--2-->
-            <div class="cards">  <!--3-->
-                <div class="card-headers">  <!--4-->
-                    <h1>Student Discount</h1>
-                </div>  <!--4 ends-->
-                <p class="csy">10% discount on purchase of $50 or more</p>
-                <h6>Use Coupon: <strong>SCHOOL10</strong></h6>
-                </div>  <!--3 ends-->
-            
-            <div class="cards">
-                <div class="card-headers"> <!---->
-                    <h1>Seasonal Offers</h1>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="img/store2.png" class="card-img-top" alt="store in Egrocer network">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Caribbean Island</h3>
+                        <p class="card-text">(For all best Caribbean foods and beverages)</p>
+                    </div>
                 </div>
-                <p class="csy">10% discount on purchase of $100 or more</p>
-                <h6>Use Coupon: <strong>FALL10</strong></h6>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="img/store10.png" class="card-img-top" alt="Ethnic store in EGrocer network">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Kohinoor Kiraanas</h3>
+                        <p class="card-text">(For all your Indian/Sri-Lankan/Pakistani culinary expeditions)</p>
+                    </div>
                 </div>
-             <div class="cards">
-                    <div class="card-headers"> <!---->
-                        <h1>Senior Offers</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/aa.png" class="d-block w-100" alt="Banner1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/bb.png" class="d-block w-100" alt="Banner2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/dd.png" class="d-block w-100" alt="Banner3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Category -->
+    <div class="container mt-4 pt-2">
+        <h2 class="background h4 text-center"><span>Categories</span></h2>
+        <div class="row name">
+            <div class="col-sm-12 col-md-6 col-lg-3 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/greenpepper.png" class="card-img-top" alt="green pepper image" height="200"
+                        width="300">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Vegetables</h3>
+                        <a href="#vegetables" class="btn cbg-lbeige">Vegetables</a>
                     </div>
-                    <p class="csy">10% discount on purchase of $30 or more</p>
-                    <h6>Use Coupon: <strong>SCHOOL10</strong></h6>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/download.png" class="card-img-top" alt="Fruits image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Fruits</h3>
+                        <a href="#fruits" class="btn cbg-lbeige">Fruits</a>
                     </div>
-
-
+                </div>
             </div>
-            </div>
-            
-     
-      
-          <!--Deals end here-->
-       <!-- Veg Begins Here-->
-      <div class="deals-container" id="vegetables">
-        <div class="xyz">
-            <h2 class="background"><span>Vegetables</span></h2>
-    
-           </div>
-          <div class="items">
-          <div class="images">
-              <img src="./assists/mushrooms.png" class="item-image-size" />
 
-          </div>
-          <div class="description">
-              <b>Organic Mushrooms</b><br />
-              <div class="item-select">
-                  Price: $1.99/250grams
-              </div>
-              <label>Qty:</label>
-              <select class="item-select">
-                  <option>250 grams</option>
-                  <option>500 grams</option>
-                  <option>750 grams</option>
-                  <option>1000 grams</option>
-              </select><br />
-              <button class="buynow-btn">Buy now</button>
-          </div>
-      </div>
-      <div class="items">
-        <div class="images">
-            <img src="./assists/onions.png" class="item-image-size" />
-
-        </div>
-        <div class="description">
-            <b>Onions</b><br />
-            <div class="item-select">
-                Price: $2.39/250grams
+            <div class="col-sm-12 col-md-6 col-lg-3 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/meat.png" class="card-img-top" alt="Meat and seafood image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Meat & Seafood</h3>
+                        <a href="#meat" class="btn cbg-lbeige">Meat & Seafood</a>
+                    </div>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
+
+            <div class="col-sm-12 col-md-6 col-lg-3  pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/deals.png" class="card-img-top" alt="Various deals" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Deals</h3>
+                        <a href="#deals" class="btn cbg-lbeige">Deals</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="items">
-        <div class="images">
-            <img src="./assists/greenpepper.png" class="item-image-size" />
 
-        </div>
-        <div class="description">
-            <b>Organic Mushrooms</b><br />
-            <div class="item-select">
-                Price: $2.99/250grams
+    <!--Deals-->
+    <div class="container mt-2" id="deals">
+        <h2 class="background h4 text-center"><span>Latest Offers and Discounts</span></h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card cards card-cust" style="width: 18rem;">
+                    <h3 class="card-title text-center h5 cbg-lbeige py-2 mb-0">Student Discount</h3>
+                    <img src="img/discount.jpg" class="card-img-top" alt="discount image" height="200" width="300">
+                    <div class="card-body">
+                        <p class="card-text text-center csy">Discounted delivery for students.</p>
+                        <h4 class="h6 cbg-button py-1">No coupon code required</h4>
+                    </div>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card cards card-cust" style="width: 18rem;">
+                    <h3 class="card-title text-center h5 cbg-lbeige py-2 mb-0">Seasonal Offers</h3>
+                    <img src="img/discount.jpg" class="card-img-top" alt="discount image" height="200" width="300">
+                    <div class="card-body">
+                        <p class="card-text text-center csy">10% discount on purchase of $100 or more</p>
+                        <h4 class="h6 cbg-button py-1">Use Coupon: <strong>FALL10</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card cards card-cust" style="width: 18rem;">
+                    <h3 class="card-title text-center h5 cbg-lbeige py-2 mb-0">Senior Offers</h3>
+                    <img src="img/discount.jpg" class="card-img-top" alt="discount image" height="200" width="300">
+                    <div class="card-body">
+                        <p class="card-text text-center csy">10% discount on purchase of $50 or more</p>
+                        <h4 class="h6 cbg-button py-1">Use Coupon: <strong>SENIOR10</strong></h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="items">
-        <div class="images">
-            <img src="./assists/tomm.png" class="item-image-size" />
 
-        </div>
-        <div class="description">
-            <b>Organic Tomatoes</b><br />
-            <div class="item-select">
-                Price: $1.49/250grams
+    <!-- Veg Begins Here-->
+    <div class="container mt-2" id="vegetables">
+        <h2 class="background h4 text-center"><span>Vegetables</span></h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/mushrooms.png" class="card-img-top" alt="mushrooms image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Organic Mushrooms</h3>
+                        <p class="card-text text-center">Price: $1.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#vegetables" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/onions.png" class="card-img-top" alt="Onions image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Onions</h3>
+                        <p class="card-text text-center">Price: $2.39/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#vegetables" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/greenpepper.png" class="card-img-top" alt="green pepper image" height="200"
+                        width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Organic Green Pepper</h3>
+                        <p class="card-text text-center">Price: $2.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#vegetables" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/tomm.png" class="card-img-top" alt="tomatoes image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Organic Tomatoes</h3>
+                        <p class="card-text text-center">Price: $1.49/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#vegetables" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/spinach.png" class="card-img-top" alt="spinach image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Organic Spinach</h3>
+                        <p class="card-text text-center">Price: $2.19/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#vegetables" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/carrots.png" class="card-img-top" alt="carrots image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Carrot</h3>
+                        <p class="card-text text-center">Price: $.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#vegetables" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="items">
-        <div class="images">
-            <img src="./assists/spinach.png" class="item-image-size" />
+    <!--Veg Ends Here-->
 
-        </div>
-        <div class="description">
-            <b>Organic Spinach</b><br />
-            <div class="item-select">
-                Price: $2.19/250grams
+    <!-- Fruits Begins Here-->
+    <div class="container mt-2" id="fruits">
+        <h2 class="background h4 text-center"><span>Fruits</span></h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/banana.png" class="card-img-top" alt="image of bananas" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Bananas</h3>
+                        <p class="card-text text-center">Price: $1.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#fruits" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/apples.png" class="card-img-top" alt="apples image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Apple</h3>
+                        <p class="card-text text-center">Price: $2.39/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#fruits" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/oranges.png" class="card-img-top" alt="orange image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Orange</h3>
+                        <p class="card-text text-center"> Price: $2.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#fruits" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/avacodoes.png" class="card-img-top" alt="avocado image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Avocado</h3>
+                        <p class="card-text text-center">Price: $1.49/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#fruits" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/grapes.png" class="card-img-top" alt="grapes image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Grapes</h3>
+                        <p class="card-text text-center">Price: $2.19/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#fruits" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/strawberries.png" class="card-img-top" alt="strawberries image" height="200"
+                        width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Strawberries</h3>
+                        <p class="card-text text-center">Price: $.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#fruits" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="items">
-        <div class="images">
-            <img src="./assists/carrots.png" class="item-image-size" />
 
-        </div>
-        <div class="description">
-            <b>Organic Carrots</b><br />
-            <div class="item-select">
-                Price: $.99/250grams
+    <!--Meat and Seafood Ends here-->
+    <div class="container mt-2" id="meat">
+        <h2 class="background h4 text-center"><span>Meat & Seafood</span></h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/chicken.png" class="card-img-top" alt="Chicken" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Whole Chicken</h3>
+                        <p class="card-text text-center">Price: $3.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#meat" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/lamb.png" class="card-img-top" alt="lamb meat image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Fresh Lamb</h3>
+                        <p class="card-text text-center">Price: $6.47/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#meat" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/prawns.png" class="card-img-top" alt="Prawns image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Prawns</h3>
+                        <p class="card-text text-center"> Price: $5.19/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#meat" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-4 text-center d-flex justify-content-center">
+                <div class="card card-cust border border-success cb-radius" style="width: 18rem;">
+                    <img src="img/fish.png" class="card-img-top" alt="fish image" height="200" width="300">
+                    <div class="card-body">
+                        <h3 class="card-title text-center h5">Fish</h3>
+                        <p class="card-text text-center">Price: $8.99/250grams</p>
+                        <label>Qty:</label>
+                        <select class="item-select">
+                            <option>250 grams</option>
+                            <option>500 grams</option>
+                            <option>750 grams</option>
+                            <option>1000 grams</option>
+                        </select><br />
+                        <a href="#meat" class="btn cbg-lbeige">Buy now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
-       <!--Veg Ends Here-->
+    <!--Meat ends Here-->
 
-       <!--fruits Start here-->
-       <div class="deals-container" id="fruits">
-        <div class="xyz">
-            <h2 class="background"><span>Fruits</span></h2>
-    
-           </div>
-        <div class="items">
-        <div class="images">
-            <img src="./assists/banana.png" class="item-image-size" />
-
-        </div>
-        <div class="description">
-            <b>Organic Bananas</b><br />
-            <div class="item-select">
-                Price: $0.99/250grams
+    <div class="container">
+        <h2 class="background h4 text-center"><span>What we offer?</span></h2>
+        <div class="card-deck">
+            <div class="card card-cust">
+                <img src="img/a.png" class="card-img-top" alt="banner4">
+                <div class="card-body">
+                    <h3 class="card-title h5">Product you love</h3>
+                    <p class="card-text">Find 1,000's of products from the stores you already shop at.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
-        </div>
-    </div>
-    <div class="items">
-      <div class="images">
-          <img src="./assists/apples.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Oragnic Apples</b><br />
-          <div class="item-select">
-              Price: $1.47/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  <div class="items">
-      <div class="images">
-          <img src="./assists/oranges.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Organic Oranges</b><br />
-          <div class="item-select">
-              Price: $3.19/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  <div class="items">
-      <div class="images">
-          <img src="./assists/avacodoes.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Organic Avocado</b><br />
-          <div class="item-select">
-              Price: $1.99/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  <div class="items">
-      <div class="images">
-          <img src="./assists/grapes.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Grapes</b><br />
-          <div class="item-select">
-              Price: $1.79/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  <div class="items">
-      <div class="images">
-          <img src="./assists/strawberries.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Organic Strawberries</b><br />
-          <div class="item-select">
-              Price: $1.8s9/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  </div>
-
-       <!--fruits Ends here-->
-       <!--Meat Starts here-->
-       <div class="deals-container" id="meat">
-        <div class="xyz">
-            <h2 class="background"><span>Meat & Seafood</span></h2>
-    
-           </div>
-        <div class="items">
-        <div class="images">
-            <img src="./assists/chicken.png" class="item-image-size" />
-
-        </div>
-        <div class="description">
-            <b>Whole Chicken</b><br />
-            <div class="item-select">
-                Price: $3.99/250grams
+            <div class="card card-cust">
+                <img src="img/b.png" class="card-img-top" alt="Banner5">
+                <div class="card-body">
+                    <h3 class="card-title h5">Same-day Delivery</h3>
+                    <p class="card-text">We make deliveries in cities like Toronto, Kitchener, Ottawa. London,
+                        Brampton.
+                        Mississauga, London and many more.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
             </div>
-            <label>Qty:</label>
-            <select class="item-select">
-                <option>250 grams</option>
-                <option>500 grams</option>
-                <option>750 grams</option>
-                <option>1000 grams</option>
-            </select><br />
-            <button class="buynow-btn">Buy now</button>
+            <div class="card card-cust">
+                <img src="img/c.png" class="card-img-top" alt="Banner6">
+                <div class="card-body">
+                    <h3 class="card-title h5">Save time & money</h3>
+                    <p class="card-text">Find exclusive deals on popular products -- delivered to your front door!
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="items">
-      <div class="images">
-          <img src="./assists/lamb.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Fresh Lamb</b><br />
-          <div class="item-select">
-              Price: $6.47/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  <div class="items">
-      <div class="images">
-          <img src="./assists/prawns.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Peeled Prawns</b><br />
-          <div class="item-select">
-              Price: $5.19/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  <div class="items">
-      <div class="images">
-          <img src="./assists/fish.png" class="item-image-size" />
-
-      </div>
-      <div class="description">
-          <b>Live Fish</b><br />
-          <div class="item-select">
-              Price: $8.99/250grams
-          </div>
-          <label>Qty:</label>
-          <select class="item-select">
-              <option>250 grams</option>
-              <option>500 grams</option>
-              <option>750 grams</option>
-              <option>1000 grams</option>
-          </select><br />
-          <button class="buynow-btn">Buy now</button>
-      </div>
-  </div>
-  </div>
-    
-
-       <!--Meat ends Here-->
-          
-          <div class="xyz">
-           <h2 class="background"><span>What we offer?</span></h2>
-   
-          </div>
-          <div class="container">
-          <div class="card-deck">
-            <div class="card">
-              <img src="./assists/a.png" class="card-img-top" alt="banner4">
-              <div class="card-body">
-                <h5 class="card-title">Product you love</h5>
-                <p class="card-text">Find 1,000's of products from the stores you already shop at.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assists/b.png" class="card-img-top" alt="Banner5">
-              <div class="card-body">
-                <h5 class="card-title">Same-day Delivery</h5>
-                <p class="card-text">We make deliveries in cities like Toronto, Kitchener, Ottawa. London, Brampton. Mississauga, London and many more.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assists/c.png" class="card-img-top" alt="Banner6">
-              <div class="card-body">
-                <h5 class="card-title">Save time & money</h5>
-                <p class="card-text">Find exclusive deals on popular products -- delivered to your front door!</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container" >
-        <div class="xyz">
-            <h2 class="background"><span>Store Owners who wish to join our network, write to us at <strong>joinnetwork@egrocer.com</strong></span></h2>
-    
-           </div>
-          
-    </body>
-     
-    <!-- End of Code your changes-->
+    <div class="container">
+        <h2 class="background h4 text-center"><span>Store Owners who wish to join our network, write to us at
+                <strong>joinnetwork@egrocer.com</strong></span></h2>
+    </div>
 
     <footer class="cbg-green ctx-dark py-3 mt-3">
         <div class="container text-center">
@@ -606,8 +573,7 @@
         </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
