@@ -1,0 +1,270 @@
+body{
+    color: #343706;
+    background-color: #fff;
+}
+
+.cbg-green{
+    background-color: #bcc74f;
+    /* background-color: #aec33a; */
+}
+
+.cbg-white {
+    background-color: #fff;
+}
+
+.ctx-dark{
+    color: #253f58;
+}
+
+.ctx-line{
+    /* text-decoration: overline #d92139; */
+    text-decoration: overline #712333;
+    /* text-decoration: overline #940000; */
+    text-decoration-style: double;
+}
+
+/* .cbg-banner{
+    background-color: #fec748;
+
+} */
+
+.cbg-button{
+    background-color: #4C550C;
+    color: #fff;
+}
+
+.coupon {
+    border: 5px solid #bbb;
+    width: 1000%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 300px;
+    display: inline-flexbox;
+  }
+  
+  .container1 {
+    padding: 5px 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }
+
+    .xyz {
+        height: 1px;
+        width: 100%;
+        display: inline;
+        overflow: hidden;
+        background-color: #e5e5e5;
+    }
+    
+
+.background {
+    text-align: center;
+}
+.name, .deals-container {
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.categories, .items {
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.categories:hover, .items:hover{
+    box-shadow: 0 0 10px 3px #184d47;
+}
+
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+.image-title {
+     text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
+
+.deal {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+}
+
+/* 
+.cards {
+    margin-top: 50px;
+    width: 20%;
+    color: white;
+    float: left;
+    margin-left: 100px;
+ background: #3c677f;
+  
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+ 
+ .cards:hover {
+     box-shadow: 0 8px 19px 0 rgba(0,0,0,0.5);
+ } */
+ #text {
+     padding: 10px;
+     font-size: 19px;
+ }
+ /* .card {
+     background: #9fbfd1;
+     height: 120px;
+     border-bottom: 3px solid white;
+ } */
+ /* #image {
+    text-align: -webkit-center;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    margin-left: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid white;
+  */
+ }
+ 
+ /* .card-content {
+   padding: 30px;
+   text-align: -webkit-center;
+ background: rgb(6, 160, 108);
+ border-radius: 0px 0px 5px 5px;
+ } */
+
+
+.images{
+    display: inline-block;
+}
+
+.item-image-size{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}
+
+.description {
+    margin: 20px;
+    min-height: 100px;
+}
+
+.item-select{
+    margin: 10px 0 0 0;
+}
+
+
+.buynow-btn {
+    border: 1px solid #184d47;
+    background: #184d47;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.buynow-btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
+
+/* .container1{
+    width: 90%;
+    margin: 50px auto;
+} */
+.rowss {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.cards {
+    width: 18%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+
+}
+
+.csy {
+    background:  #b1bb69;
+}
+
+.card-headers {
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+}
+
+ .cards body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+} 
+
+.cards:Hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0,);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
